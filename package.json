@@ -1,0 +1,29 @@
+{
+  "name": "cadet-parser",
+  "version": "0.1.3",
+  "description": "a mvp markdown parser for use with Cadet",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cf-lms/cadet-parser.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cf-lms/cadet-parser/issues"
+  },
+  "homepage": "https://github.com/cf-lms/cadet-parser#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}
