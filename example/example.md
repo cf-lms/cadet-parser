@@ -1,4 +1,4 @@
-'#JavaScript: An eight week course over the MEAN stack.
+#JavaScript: An eight week course over the MEAN stack.
 
 ##Week 1
 ###Day 1
@@ -131,4 +131,4 @@
 ####Code: Adding a Gulpfile/package.json
 #####Rubric: 10
 ####Read: Semantic Versioning
-#####Rubric: 5'
+#####Rubric: 5

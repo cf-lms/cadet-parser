@@ -1,4 +1,4 @@
-var parser = module.exports = require(__dirname + '/lib/parser.js');
+module.exports = require(__dirname + '/lib/parser.js');
 
 
 
