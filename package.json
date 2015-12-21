@@ -1,6 +1,6 @@
 {
   "name": "cadet-parser",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "a mvp markdown parser for use with Cadet",
   "main": "index.js",
   "directories": {
