@@ -12,12 +12,13 @@ To then use Cadet Parser you must require it in.
 
 ```var parser = require('cadet-parser')```
 
-**parser(string, callback)**
+**parser(string, [start date], callback)**
 
 Cadet Parser gives you a function that will read a string and return to you a course object generated from that file.
 
 1. String: A string from a markdown file that matches the structure listed below.
-2. Callback: Allows this to run asyncrously with a node style callback. It returns error as the first argument and data as the second argument. Error should be null and Data should be the course object.
+2. Start Date(OPTIONAL): Provide a Start Date for the Course. If none is provide it will default to today. It must be provided as a JavaScript Date Object.
+3. Callback: Allows this to run asyncrously with a node style callback. It returns error as the first argument and data as the second argument. Error should be null and Data should be the course object.
 
 ```
 parser(string, function(data) {

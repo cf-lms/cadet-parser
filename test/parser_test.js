@@ -17,6 +17,7 @@ describe('the markdown parser', function() {
       expect(course.weeks[0].days[0].assignments[0]).to.have.property('type');
       expect(course.weeks[0].days[0].assignments[0]).to.have.property('description');
       expect(course.weeks[0].days[0].assignments[0]).to.have.property('rubric');
+      expect(course.weeks[0].days[0].assignments[0]).to.have.property('dueDate');
       done();
     });
   });
